@@ -526,7 +526,7 @@ var steps = async function (message, args, Discord, tools, step, id) {
 				console.log(q_arr[ans - 1])
 			}
 			if(race == "Драконорождённый"){
-				let q = "Выберите тип дракона\n"
+				let q = "Выберите тип дракона\nhttps://raw.githubusercontent.com/1hermn/Dungeons-Dragons-Discord-Bot/master/png/dragons.png"
 				let answers = []
 				let time = 60 * 1000
 				let ans = await question(q, message, answers, time)
