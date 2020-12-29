@@ -10,7 +10,7 @@ module.exports = {
 	id = args[0] 
     
 	User.findOne({id: id, user: message.author.id}, (err, user) => {
-		console.log(user)
+		message.channel.send(`\`\`\`json\n${user}\`\`\``)
 	})
 }
 }
